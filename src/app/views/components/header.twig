@@ -1,0 +1,36 @@
+<header class="header">
+    <div class="container">
+        <div class="header__wrap">
+            <div class="header__logo-wrap">
+                <h1 class="header__logo">
+                    <a href="" class="header__logo-link">
+                        <img src="images/logo.png" alt="Mafia Patron" class="header__logo-img">
+                        <span class="visually-hidden">Mafia Patron</span>
+                    </a>
+                </h1>
+{#                <p class="header__logo-text">оригинальная идея для праздника!</p>#}
+            </div>
+            {#<nav class="header__nav">
+                <ul class="header__nav-list">
+                    {% for item in nav %}
+                        <li class="header__nav-item"><a href="#">{{ item.itemName }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>#}
+            <div class="header__phone">
+                <a href="tel:{{ headerPhoneLink }}">{{ headerPhone }}</a>
+            </div>
+            <div class="header__social">
+                <ul class="header__social-list">
+                    {% for item in social %}
+                        <li class="header__social-item">
+                            <a href="#">
+                                {{ item.itemIcon }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
