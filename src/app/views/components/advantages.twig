@@ -1,0 +1,19 @@
+<section class="advantages" style="background-image: url('images/advantagesBG.png')">
+    <div class="container">
+        <h3 class="advantages__title">Преимущества игры</h3>
+        <ul class="advantages__list">
+            {% for item in items %}
+                <li class="advantages__item">
+                    <img src="images/{{ item.iconName }}.png" alt="" class="advantages__item-icon">
+                    <h4 class="advantages__item-title">{{ item.title }}</h4>
+                    <p class="advantages__item-description">{{ item.description }}</p>
+                </li>
+            {% endfor %}
+            <li class="advantages__card">
+                <h4 class="advantages__card-title">{{ titleCard }}</h4>
+                <p class="advantages__card-text">{{ textCard }}</p>
+                <button class="advantages__card-btn">{{ btnCard }}</button>
+            </li>
+        </ul>
+    </div>
+</section>
