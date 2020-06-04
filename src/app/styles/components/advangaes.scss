@@ -3,6 +3,32 @@
   background-position: 50% 60%;
   margin-top: 5rem;
 
+  &__title {
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    width: 70%;
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      @include png-sprite($icon-bulletRight);
+      top: 50%;
+      transform: translate(-10%, -50%);
+      left: 0;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      @include png-sprite($icon-bulletLeft);
+      top: 50%;
+      transform: translate(10%, -50%);
+      right: 0;
+    }
+  }
+
   &__wrap {
     display: flex;
     align-items: center;
