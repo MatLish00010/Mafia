@@ -1,13 +1,14 @@
 .advantages {
+  box-shadow: inset 1px 295px 368px black, -3px -35px 47px black;
   background-repeat: no-repeat;
   background-position: 50% 60%;
   margin-top: 5rem;
+  padding-top: 2rem;
 
   &__title {
-    font-size: 32px;
+    font-size: 2.5rem;
     text-align: center;
     position: relative;
-    width: 70%;
 
 
     &::before {
@@ -30,13 +31,12 @@
   }
 
   &__wrap {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
   }
 
   &__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     flex-wrap: wrap;
   }
 
@@ -46,7 +46,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 30%;
     min-width: 300px;
     margin: 1.6%;
 
@@ -63,7 +62,39 @@
       font-size: 1rem;
       line-height: 1.4em;
       max-width: 19rem;
-      margin-bottom:1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__card {
+    border: 2px dashed #ffffff;
+    border-radius: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 3rem;
+
+    &-title {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    &-text {
+      margin-bottom: 2rem;
+      margin-top: 0.4rem;
+    }
+
+    &-btn {
+      font-size: 1.3rem;
+      background-color: #81121d;
+      border: 2px solid #ffffff;
+      border-radius: 1em;
+      text-transform: uppercase;
+      color: #ffffff;
+      padding: 1em 2em;
+      font-weight: bold;
     }
   }
 }
