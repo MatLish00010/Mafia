@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed74f82d-dbb3-412a-9918-0096a9daee44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/app/styles/components/advangaes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/advangaes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/styles/components/advangaes.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="390">
+              <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -253,12 +252,12 @@
       <workItem from="1590261872479" duration="1574000" />
       <workItem from="1590385783660" duration="7077000" />
       <workItem from="1590396642049" duration="4871000" />
-      <workItem from="1591284207423" duration="4039000" />
+      <workItem from="1591284207423" duration="4358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28449000" />
+    <option name="totallyTimeSpent" value="28768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -425,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/styles/components/advangaes.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="390">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
     </entry>

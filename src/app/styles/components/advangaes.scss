@@ -1,7 +1,7 @@
 .advantages {
   box-shadow: inset 1px 295px 368px black, -3px -35px 47px black;
   background-repeat: no-repeat;
-  background-position: 50% 60%;
+  background-position: 50% -190%;
   margin-top: 5rem;
   padding-top: 2rem;
 
@@ -37,6 +37,7 @@
   &__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
     flex-wrap: wrap;
   }
 
@@ -77,6 +78,7 @@
     margin: 1rem 3rem;
 
     &-title {
+      text-transform: uppercase;
       font-size: 2rem;
       margin: 0;
     }
