@@ -12,7 +12,19 @@
     text-align: center;
     position: relative;
     text-transform: uppercase;
+
+    &-wrap {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    &-icon {
+      height: 0.8rem;
+    }
   }
+
+
 
   &__wrap {
     text-align: center;

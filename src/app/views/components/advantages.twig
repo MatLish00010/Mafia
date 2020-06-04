@@ -1,6 +1,10 @@
 <section class="advantages" style="background-image: url('images/advantagesBG.png')">
     <div class="advantages__wrap container">
-        <h3 class="advantages__title">Преимущества игры</h3>
+        <div class="advantages__title-wrap">
+            <img class="advantages__title-icon advantages__item-icon--left" src="/images/bulletRight.png" alt="">
+            <h3 class="advantages__title">Преимущества игры</h3>
+            <img class="advantages__title-icon advantages__item-icon--right" src="/images/bulletLeft.png" alt="">
+        </div>
         <ul class="advantages__list">
             {% for item in items %}
                 <li class="advantages__item">
